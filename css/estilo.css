@@ -6,34 +6,35 @@
 
 .central {
 
-  width: 50%;
-  margin: 0 auto;
+width: 50%;
+margin: 0 auto;
 }
 
 body {
   
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 14px;
-  line-height: 1.27;
-  color: #354052;
+font-family: "Source Sans Pro", sans-serif;
+font-size: 14px;
+line-height: 1.27;
+color: #354052;
   
 }
 
 .ella {
 
-  width: 141px;
-  font-family: Source Sans Pro;
-  font-size: 70px;
-  font-weight:400;
-  line-height: 1.26;
-  text-align: left;
-  color: #6b3de4;
-  margin-right: 615px;
+width: 141px;
+font-family: Source Sans Pro;
+font-size: 70px;
+font-weight:400;
+line-height: 1.26;
+text-align: left;
+color: #6b3de4;
+margin-right: 615px;
 }
 
 .img-abertura {
 
-  width: 599px;
+width: 599px; 
+
 }
 .texto-img {
   
@@ -115,9 +116,14 @@ color: #354052;
   justify-content: center;
   display: flex;
   
-  
-  
+    
 }
+
+.linha-survey {
+
+  margin-left: 5px;
+} 
+
 .redes {
 
  display: flex;
@@ -151,11 +157,7 @@ a {
   font-size: 16px;
   font-family: SourceSansPro;
 }
-.tentar {
 
-  margin-left: 4px;
-
-}
 
 .contexto {
 
@@ -165,21 +167,53 @@ a {
   
 }
  
-                                        /* RESPONSIVE PRIMEIRO SITE --*/
+                        
+                             /* COMPONENTES DO SEGUNDO SITE 
+                             --------------------------------- */
+.blocos {                          
 
+display: inline-block;
+       
+}
 
-@media(max-width: 320px) { /* A VERSÃO MOBILE  --*/
+.imagens {
 
-  .central { /*--  SITE --*/
+width: 288px;
+height: 242px;
+background-color: rgba(167, 60, 146, 0.11);
+margin: 5px;
+margin-top: 40px;
+   
+    
+}
+.nomes {
+
+width: 288px;
+height: 29px;
+font-family: Source Sans Pro;
+font-size: 20px;
+font-weight: 600;
+line-height: 3;
+letter-spacing: normal;
+text-align: center;
+color: #354052;
+  
+}
+
+.sub-texto {
+
+ width: 288px;
+font-size: 18px;
+font-weight: 300;
+line-height: 3.33;
+letter-spacing: normal;
+text-align: center;
+color: #354052;
+
+}
+
+@media(max-width: 320px) { /* A VERSÃO MOBILE COMEÇA AQUI --*/
+
+  .central { /*-- PADRÃO DE TEXTO DO SITE --*/
       width: 320px;
   }
-
- 
-  }
-
-
-
-}/*fechamento mobile*/ 
-
-
-                              /* RESPONSIVE SEGUNDO SITE --/*
